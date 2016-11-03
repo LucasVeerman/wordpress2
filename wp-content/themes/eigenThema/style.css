@@ -1,0 +1,127 @@
+/*
+Theme Name: Thema van Lucas
+Theme URI: \
+Author: Lucas Veerman
+Author URI: http://20969.hosts.ma-cloud.nl/wordpress/
+Description: Een WordPress thema gemaakt door Lucas Veerman.
+Version: 1.0
+License: vrij
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: basic
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+body
+{
+    background: url("img/ultra.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+
+#header
+{
+    height: 110px;
+    background-color: #2A2A2A;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+#content
+{
+    min-height: 750px;
+    background-color: #2A2A2A;
+    width: 100%;
+    margin-top: 500px;
+    left: 0;
+    position: absolute;
+}
+#logo
+{
+    width: 40%;
+    float: left;
+}
+#menu{
+    width: 40%;
+    float: right;
+    margin-top: 75px;
+    font-size: 20px;
+}
+#menu> a
+{
+    float: right;
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+#menu> a:hover
+{
+    color: #ae4b81;
+    text-decoration: underline;
+}
+#tekst1>h1
+{
+    color: white;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 10px;
+
+}
+#tekst1>h1>a
+{
+    text-decoration: none;
+    color: white;
+}
+#tekst2
+{
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: #373839;
+    width: 275px;
+}
+#zoek
+{
+    border-radius: 5px;
+    color: lightslategrey;
+    height: 25px;
+}
+#info
+{
+    color: white;
+    width: 50%;
+    float: left;
+}
+#aside
+{
+    color: white;
+    width: 25%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 15px;
+    color: #ae4b81;
+    margin-bottom: 100px;
+}
+#recent> a,
+#categorieen> a,
+#META > a
+{
+    color: #ae4b81;
+    text-decoration: none;
+}
+
+footer
+{
+    bottom: 0;
+    position: absolute;
+    color: white;
+    font-size: 12px;
+}
